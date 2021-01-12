@@ -1,21 +1,12 @@
 # Identicon
 
-**TODO: Add description**
+Identicon is an image generated based on the string hashes.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
+Assuming that you have Elixir installed and cloned this repository, you can run `mix deps.get` on your terminal
 
-```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
-```
+Then, run the command iex -S mix to start the Interactive Elixir terminal.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
+Now, run Identicon.generate("Here you write the string to be generated the Identicon") and a file will be created in the project root directory.
 
