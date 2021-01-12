@@ -8,5 +8,5 @@ Assuming that you have Elixir installed and cloned this repository, you can run 
 
 Then, run the command iex -S mix to start the Interactive Elixir terminal.
 
-Now, run `Identicon.generate("Here you write the string to be generated the Identicon")` and a file will be created in the project root directory.
+Now, run `Identicon.generate("Here you write the string to generate the Identicon")` and a file will be created in the project root directory.
 
